@@ -39,4 +39,7 @@
 	git merge <nome_da_branch>
 
 14. Comando para excluir uma branch
-	git branch D <nome da branch>
+	git branch -D <nome da branch>
+
+15. Comando para saber quantas branchs existe
+	git branch
