@@ -29,4 +29,10 @@
 10. Enxergar todos os commits realizados
 	git log
 
-11. 
+11. Adicionando todos os arquivos no controle do git
+	git add . #Extremamente perigoso
+
+12. Comando para remover arquivos adicionados mas não comitados
+	git reset #Limpa toda a branch
+
+13. 
