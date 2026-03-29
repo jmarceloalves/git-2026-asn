@@ -35,4 +35,13 @@
 12. Comando para remover arquivos adicionados mas não comitados
 	git reset #Limpa toda a branch
 
-13. 
+13. O que é uma branch? Uma branch é uma bifurcação que isola o estado de um projeto em um determinado
+	momento no tempo. 
+	Comando para criar uma branch:
+	git checkout -b <nome_da_branch>
+
+14. Para trocar de branch execute o comando:
+	git checkout <nome_da_branch>
+
+15. Comando para saber quantas branchs existem:
+	git branch
