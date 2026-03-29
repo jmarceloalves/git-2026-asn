@@ -1,0 +1,32 @@
+1. Inicializar um repositório git
+	git init .
+
+2. Listar arquivos:
+	ls
+	ls -a #somente arquivos ocultos
+
+3. Listar em qual diretório estou:
+	pwd
+
+4. Criar arquivos no bash
+	touch arquivo.txt
+
+5. A pasta .git é a responsável por fazer todo o controle de versão local
+
+6. Buscar o status do git
+	git status
+
+7. Adicionar um arquivo no git
+	git add <nome_arquivo.extensao>
+
+8. Fazer o commit no git
+	git commit -m "mensagem de commit"
+
+9. Comandos para configurar o responsável pelo commit
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+10. Enxergar todos os commits realizados
+	git log
+
+11. 
