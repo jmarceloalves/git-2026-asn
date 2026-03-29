@@ -37,3 +37,6 @@
 
 13. Para atualizar a branch main é necessário fazer um merge a partir da branch main:
 	git merge <nome_da_branch>
+
+14. Comando para excluir uma branch
+	git branch D <nome da branch>
