@@ -35,5 +35,5 @@
 12. Comando para remover arquivos adicionados mas não comitados
 	git reset #Limpa toda a branch
 
-13. Para atualizar a branch main é necessário fazer um merge:
-	git merge segunda
+13. Para atualizar a branch main é necessário fazer um merge a partir da branch main:
+	git merge <nome_da_branch>
