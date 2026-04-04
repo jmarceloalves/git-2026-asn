@@ -35,11 +35,17 @@
 12. Comando para remover arquivos adicionados mas não comitados
 	git reset #Limpa toda a branch
 
-13. Para atualizar a branch main é necessário fazer um merge a partir da branch main:
+13. Comando para criar uma nova branch
+	git checkout -b minha-nova-branch
+
+14. Comando para trocar de branch
+	git checkout minha-nova-branch
+
+15. Para atualizar a branch main é necessário fazer um merge a partir da branch main:
 	git merge <nome_da_branch>
 
-14. Comando para excluir uma branch
+16. Comando para excluir uma branch
 	git branch -D <nome da branch>
 
-15. Comando para saber quantas branchs existe
+17. Comando para saber quantas branchs existe
 	git branch
