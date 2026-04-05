@@ -53,4 +53,12 @@
 18. Histórico de alterações em um arquivo
 	git diff nome-arquivo
 
-35
+19. Para habilitar a autenticação via SSH entre sua máquina e o github
+	ssh-keygen -t ed25519 -C "jmarcelo.alves@gmail.com"
+	cat ~/.ssh/id_ed25519.pub # Após este comando deve-se copiar o conteúdo do arquivo SSH e colar no git em Profile\Settings\Access\SSH and GPG keys
+
+20. Caso apareça a seguinte mensagem: error: remote origin already exists 
+	git remote -v # Check which URL is currently assigned to origin
+	git remote set-url origin git@github.com:USERNAME/REPOSITORY.git # Update the existing remote to SSH
+
+
