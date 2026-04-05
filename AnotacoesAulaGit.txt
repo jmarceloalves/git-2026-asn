@@ -49,3 +49,8 @@
 
 17. Comando para saber quantas branchs existe
 	git branch
+
+18. Histórico de alterações em um arquivo
+	git diff nome-arquivo
+
+35
