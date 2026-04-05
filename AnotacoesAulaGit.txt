@@ -69,3 +69,5 @@
 22. Para enviar os dados do repositório local após um commit
 		git push -u origin main # Neste exemplo estamos usando a branch main
 
+23. O pull request é sempre realizado na nuvem (github)
+
